@@ -3,6 +3,27 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.2.9-nightly.20221012](https://github.com/ionic-team/ionic/compare/v6.0.0-beta.3...v6.2.9-nightly.20221012) (2022-10-12)
+
+
+### Bug Fixes
+
+* **react-router:** remove page transition flicker on outlet mounting ([#24667](https://github.com/ionic-team/ionic/issues/24667)) ([bdb5c42](https://github.com/ionic-team/ionic/commit/bdb5c421d2d1f72c123c254e50c6d31b3c1a8f42)), closes [#24666](https://github.com/ionic-team/ionic/issues/24666)
+* **react:** duplicate page transitions do not happen on react 18 ([#25798](https://github.com/ionic-team/ionic/issues/25798)) ([a39d776](https://github.com/ionic-team/ionic/commit/a39d776f087514b7fa744f44ce8ce2a04ed8aa43)), closes [#25797](https://github.com/ionic-team/ionic/issues/25797)
+* **react:** nested router outlets will not reanimate entered views ([#24672](https://github.com/ionic-team/ionic/issues/24672)) ([43aa6c1](https://github.com/ionic-team/ionic/commit/43aa6c11f42fd5cf455c50419d5f5fbb327b2901)), closes [#24107](https://github.com/ionic-team/ionic/issues/24107)
+* **react:** outlet will not clear in react 18 with hot reload ([#25703](https://github.com/ionic-team/ionic/issues/25703)) ([3878bf7](https://github.com/ionic-team/ionic/commit/3878bf76523f2e1c26c147473fd7c07ee4d0e820)), closes [#25507](https://github.com/ionic-team/ionic/issues/25507)
+* **react:** swipe to go back gesture works on ios ([#25563](https://github.com/ionic-team/ionic/issues/25563)) ([7ec3683](https://github.com/ionic-team/ionic/commit/7ec3683e94e5397022560ce8489532ff40d3f40c)), closes [#22342](https://github.com/ionic-team/ionic/issues/22342)
+
+
+### Features
+
+* **react:** add custom elements bundle ([#23896](https://github.com/ionic-team/ionic/issues/23896)) ([c50d895](https://github.com/ionic-team/ionic/commit/c50d895370a56d0809019dc59fe32ec840b72f03))
+* **react:** add setupIonicReact function ([#24254](https://github.com/ionic-team/ionic/issues/24254)) ([55db38d](https://github.com/ionic-team/ionic/commit/55db38ddc541c2632c7d3e4e4c9400ff5b5dfe8c)), closes [#24139](https://github.com/ionic-team/ionic/issues/24139)
+
+
+
+
+
 ## [6.2.8](https://github.com/ionic-team/ionic/compare/v6.2.7...v6.2.8) (2022-09-21)
 
 **Note:** Version bump only for package @ionic/react-router
